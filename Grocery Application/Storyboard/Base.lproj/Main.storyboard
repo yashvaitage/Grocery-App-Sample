@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VLy-Vw-zga">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VLy-Vw-zga">
     <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -78,7 +78,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f65-Kc-UjE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1146.1538461538462" y="762.79620853080564"/>
+            <point key="canvasLocation" x="-1146" y="763"/>
         </scene>
         <!--Search-->
         <scene sceneID="R45-Sc-Zd6">
@@ -501,7 +501,7 @@
                                                 <constraint firstItem="Q5i-iy-1Vc" firstAttribute="top" secondItem="yGK-Iu-fgQ" secondAttribute="topMargin" constant="16" id="OSe-uf-tns"/>
                                                 <constraint firstItem="PA6-dw-bIO" firstAttribute="top" secondItem="Q5i-iy-1Vc" secondAttribute="top" id="PlO-BU-UIH"/>
                                                 <constraint firstItem="QkV-jk-sjI" firstAttribute="leading" secondItem="PA6-dw-bIO" secondAttribute="trailing" constant="15" id="WHp-jx-4Hj"/>
-                                                <constraint firstItem="j1B-eX-NAR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Q5i-iy-1Vc" secondAttribute="trailing" symbolic="YES" id="WgR-qb-3nq"/>
+                                                <constraint firstItem="j1B-eX-NAR" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="Q5i-iy-1Vc" secondAttribute="trailing" constant="8" symbolic="YES" id="WgR-qb-3nq"/>
                                                 <constraint firstItem="UiH-Pf-dPw" firstAttribute="leading" secondItem="QkV-jk-sjI" secondAttribute="trailing" constant="8" id="kZZ-fL-Vtq"/>
                                                 <constraint firstItem="Q5i-iy-1Vc" firstAttribute="leading" secondItem="yGK-Iu-fgQ" secondAttribute="leadingMargin" constant="16" id="mNQ-Z8-6Wd"/>
                                                 <constraint firstItem="Q5i-iy-1Vc" firstAttribute="centerY" secondItem="yGK-Iu-fgQ" secondAttribute="centerY" id="nWG-te-Pru"/>
@@ -534,7 +534,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xDJ-i4-U0o" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1146.1538461538462" y="1468.7203791469194"/>
+            <point key="canvasLocation" x="-1146" y="1469"/>
         </scene>
         <!--Product Details-->
         <scene sceneID="SIJ-ka-HrI">
@@ -633,7 +633,7 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="crB-cY-46E" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <exit id="B0w-qD-WZF" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="-366.15384615384613" y="1468.7203791469194"/>
+            <point key="canvasLocation" x="-405" y="1469"/>
         </scene>
         <!--Cart-->
         <scene sceneID="Yc3-KN-5kv">
@@ -692,7 +692,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="vev-zN-Ufq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="438" y="1478"/>
+            <point key="canvasLocation" x="362" y="1469"/>
         </scene>
     </scenes>
     <resources>

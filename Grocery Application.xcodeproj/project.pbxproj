@@ -7,18 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		843C202F27E0B26700D3AED2 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 843C202C27E0B26700D3AED2 /* Gotham-Bold.otf */; };
+		843C203027E0B26700D3AED2 /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 843C202D27E0B26700D3AED2 /* Gotham-BookItalic.otf */; };
+		843C203127E0B26700D3AED2 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 843C202E27E0B26700D3AED2 /* Gotham-Black.otf */; };
 		845DD7D527CCC9C800D3BB50 /* ProductHistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 845DD7D427CCC9C800D3BB50 /* ProductHistoryTableViewCell.swift */; };
 		8472AC3E27BCDC1D00E3C4E3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472AC3D27BCDC1D00E3C4E3 /* AppDelegate.swift */; };
 		8472AC4027BCDC1D00E3C4E3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472AC3F27BCDC1D00E3C4E3 /* SceneDelegate.swift */; };
-		8472AC4227BCDC1D00E3C4E3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472AC4127BCDC1D00E3C4E3 /* ViewController.swift */; };
 		8472AC4527BCDC1D00E3C4E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8472AC4327BCDC1D00E3C4E3 /* Main.storyboard */; };
 		8472AC4727BCDC1F00E3C4E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8472AC4627BCDC1F00E3C4E3 /* Assets.xcassets */; };
 		8472AC4A27BCDC1F00E3C4E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8472AC4827BCDC1F00E3C4E3 /* LaunchScreen.storyboard */; };
 		8472AC5227BCDFF300E3C4E3 /* GroceryItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8472AC5127BCDFF300E3C4E3 /* GroceryItemViewController.swift */; };
 		847B36DF27D2022D00F9F975 /* DetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847B36DE27D2022D00F9F975 /* DetailTableViewCell.swift */; };
-		848AFA2927CE065400E4CFA9 /* Gotham-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 848AFA2627CE065300E4CFA9 /* Gotham-Black.otf */; };
-		848AFA2A27CE065400E4CFA9 /* Gotham-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 848AFA2727CE065300E4CFA9 /* Gotham-Bold.otf */; };
-		848AFA2B27CE065400E4CFA9 /* Gotham-BookItalic.otf in Resources */ = {isa = PBXBuildFile; fileRef = 848AFA2827CE065300E4CFA9 /* Gotham-BookItalic.otf */; };
 		8492CBEE27C78C7B005CDD68 /* CellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492CBED27C78C7B005CDD68 /* CellTableViewCell.swift */; };
 		849B1BAF27C3751100AA799F /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 849B1BAE27C3751100AA799F /* ProductViewController.swift */; };
 		84A2CEA727D0B9FE0037161B /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A2CEA627D0B9FE0037161B /* SearchTableViewCell.swift */; };
@@ -31,20 +30,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		843C202C27E0B26700D3AED2 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Bold.otf"; path = "../../../../../../Downloads/Font/Gotham-Font/Gotham-Bold.otf"; sourceTree = "<group>"; };
+		843C202D27E0B26700D3AED2 /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-BookItalic.otf"; path = "../../../../../../Downloads/Font/Gotham-Font/Gotham-BookItalic.otf"; sourceTree = "<group>"; };
+		843C202E27E0B26700D3AED2 /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Black.otf"; path = "../../../../../../Downloads/Font/Gotham-Font/Gotham-Black.otf"; sourceTree = "<group>"; };
 		845DD7D427CCC9C800D3BB50 /* ProductHistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductHistoryTableViewCell.swift; sourceTree = "<group>"; };
 		8472AC3A27BCDC1D00E3C4E3 /* Grocery Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Grocery Application.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8472AC3D27BCDC1D00E3C4E3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8472AC3F27BCDC1D00E3C4E3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8472AC4127BCDC1D00E3C4E3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8472AC4427BCDC1D00E3C4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8472AC4627BCDC1F00E3C4E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8472AC4927BCDC1F00E3C4E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8472AC4B27BCDC1F00E3C4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8472AC5127BCDFF300E3C4E3 /* GroceryItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryItemViewController.swift; sourceTree = "<group>"; };
 		847B36DE27D2022D00F9F975 /* DetailTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailTableViewCell.swift; sourceTree = "<group>"; };
-		848AFA2627CE065300E4CFA9 /* Gotham-Black.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Black.otf"; path = "../../../../../../Downloads/Gotham-Font/Gotham-Black.otf"; sourceTree = "<group>"; };
-		848AFA2727CE065300E4CFA9 /* Gotham-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-Bold.otf"; path = "../../../../../../Downloads/Gotham-Font/Gotham-Bold.otf"; sourceTree = "<group>"; };
-		848AFA2827CE065300E4CFA9 /* Gotham-BookItalic.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Gotham-BookItalic.otf"; path = "../../../../../../Downloads/Gotham-Font/Gotham-BookItalic.otf"; sourceTree = "<group>"; };
 		8492CBED27C78C7B005CDD68 /* CellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellTableViewCell.swift; sourceTree = "<group>"; };
 		849B1BAE27C3751100AA799F /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
 		84A2CEA627D0B9FE0037161B /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
@@ -67,6 +65,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		843C200D27E0ADF700D3AED2 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				8472AC4327BCDC1D00E3C4E3 /* Main.storyboard */,
+				8472AC4827BCDC1F00E3C4E3 /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		843C200E27E0AE0B00D3AED2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8472AC5127BCDFF300E3C4E3 /* GroceryItemViewController.swift */,
+				84DFE55D27BFDB8A009F2C2A /* DetailsViewController.swift */,
+				84DFE55327BF80A6009F2C2A /* ProfileViewController.swift */,
+				84DFE55527BFA78E009F2C2A /* SearchViewController.swift */,
+				849B1BAE27C3751100AA799F /* ProductViewController.swift */,
+				84E9B64F27D3987700480385 /* CartViewController.swift */,
+				84DFE55727BFA803009F2C2A /* HistoryViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		843C200F27E0AEA200D3AED2 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				84A6B2DF27D5E06E000F3D56 /* CartTableViewCell.swift */,
+				847B36DE27D2022D00F9F975 /* DetailTableViewCell.swift */,
+				8492CBED27C78C7B005CDD68 /* CellTableViewCell.swift */,
+				84A2CEA627D0B9FE0037161B /* SearchTableViewCell.swift */,
+				845DD7D427CCC9C800D3BB50 /* ProductHistoryTableViewCell.swift */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		8472AC3127BCDC1D00E3C4E3 = {
 			isa = PBXGroup;
 			children = (
@@ -86,28 +119,16 @@
 		8472AC3C27BCDC1D00E3C4E3 /* Grocery Application */ = {
 			isa = PBXGroup;
 			children = (
-				848AFA2627CE065300E4CFA9 /* Gotham-Black.otf */,
-				848AFA2727CE065300E4CFA9 /* Gotham-Bold.otf */,
-				848AFA2827CE065300E4CFA9 /* Gotham-BookItalic.otf */,
+				843C200D27E0ADF700D3AED2 /* Storyboard */,
+				843C200F27E0AEA200D3AED2 /* Cell */,
+				843C200E27E0AE0B00D3AED2 /* ViewController */,
 				8472AC3D27BCDC1D00E3C4E3 /* AppDelegate.swift */,
 				8472AC3F27BCDC1D00E3C4E3 /* SceneDelegate.swift */,
-				8472AC4127BCDC1D00E3C4E3 /* ViewController.swift */,
-				8472AC4327BCDC1D00E3C4E3 /* Main.storyboard */,
 				8472AC4627BCDC1F00E3C4E3 /* Assets.xcassets */,
-				8472AC4827BCDC1F00E3C4E3 /* LaunchScreen.storyboard */,
 				8472AC4B27BCDC1F00E3C4E3 /* Info.plist */,
-				8472AC5127BCDFF300E3C4E3 /* GroceryItemViewController.swift */,
-				84DFE55D27BFDB8A009F2C2A /* DetailsViewController.swift */,
-				847B36DE27D2022D00F9F975 /* DetailTableViewCell.swift */,
-				849B1BAE27C3751100AA799F /* ProductViewController.swift */,
-				84E9B64F27D3987700480385 /* CartViewController.swift */,
-				84A6B2DF27D5E06E000F3D56 /* CartTableViewCell.swift */,
-				84DFE55327BF80A6009F2C2A /* ProfileViewController.swift */,
-				8492CBED27C78C7B005CDD68 /* CellTableViewCell.swift */,
-				84DFE55527BFA78E009F2C2A /* SearchViewController.swift */,
-				84A2CEA627D0B9FE0037161B /* SearchTableViewCell.swift */,
-				84DFE55727BFA803009F2C2A /* HistoryViewController.swift */,
-				845DD7D427CCC9C800D3BB50 /* ProductHistoryTableViewCell.swift */,
+				843C202E27E0B26700D3AED2 /* Gotham-Black.otf */,
+				843C202C27E0B26700D3AED2 /* Gotham-Bold.otf */,
+				843C202D27E0B26700D3AED2 /* Gotham-BookItalic.otf */,
 			);
 			path = "Grocery Application";
 			sourceTree = "<group>";
@@ -170,10 +191,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				848AFA2B27CE065400E4CFA9 /* Gotham-BookItalic.otf in Resources */,
-				848AFA2A27CE065400E4CFA9 /* Gotham-Bold.otf in Resources */,
+				843C203027E0B26700D3AED2 /* Gotham-BookItalic.otf in Resources */,
+				843C203127E0B26700D3AED2 /* Gotham-Black.otf in Resources */,
+				843C202F27E0B26700D3AED2 /* Gotham-Bold.otf in Resources */,
 				8472AC4A27BCDC1F00E3C4E3 /* LaunchScreen.storyboard in Resources */,
-				848AFA2927CE065400E4CFA9 /* Gotham-Black.otf in Resources */,
 				8472AC4727BCDC1F00E3C4E3 /* Assets.xcassets in Resources */,
 				8472AC4527BCDC1D00E3C4E3 /* Main.storyboard in Resources */,
 			);
@@ -191,7 +212,6 @@
 				84E9B65027D3987700480385 /* CartViewController.swift in Sources */,
 				847B36DF27D2022D00F9F975 /* DetailTableViewCell.swift in Sources */,
 				849B1BAF27C3751100AA799F /* ProductViewController.swift in Sources */,
-				8472AC4227BCDC1D00E3C4E3 /* ViewController.swift in Sources */,
 				8472AC3E27BCDC1D00E3C4E3 /* AppDelegate.swift in Sources */,
 				8492CBEE27C78C7B005CDD68 /* CellTableViewCell.swift in Sources */,
 				8472AC4027BCDC1D00E3C4E3 /* SceneDelegate.swift in Sources */,

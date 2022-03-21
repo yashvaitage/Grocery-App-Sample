@@ -8,9 +8,7 @@ import Foundation
 import UIKit
 
 class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewDataSource, productListTableViewCellDelegate{
-    
-    
-    var updateNum: Int = 0
+
     var vegetableArray = ["Tomato", "Onion", "Cauliflower", "Lemon", "Chilli", "Capsicum", "Carrot"]
     var vegitableItemDescription = ["500g 18₹", "1kg 32₹", "1piece 32₹", "200g 13₹", "100g 12₹", "3piece 16₹", "500g 20₹"]
     var groceryItemName = ""
@@ -19,7 +17,7 @@ class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewD
     var counter: Int = 0
     
     @IBOutlet weak var ProductDetailTableView: UITableView!
-
+    static var updateNum = 0
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -42,7 +40,7 @@ class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewD
         cell?.productLabel.text = "\(vegetableArray[indexPath.row])"
         cell?.productImage.image = UIImage(named: vegetableArray[indexPath.row])
         cell?.productDetailLabel.text = "\(vegitableItemDescription[indexPath.row])"
-        cell?.numProductLabel.text = "\(updateNum)"
+        cell?.numProductLabel.text = "\(DetailsViewController.updateNum)"
         cell?.delegate = self
         return cell!
     }
@@ -53,27 +51,41 @@ class DetailsViewController: UIViewController, UITableViewDelegate, UITableViewD
            vc?.image = UIImage(named: vegetableArray[indexPath.row])!
            vc?.productName = vegetableArray[indexPath.row]
            vc?.descriptionProduct = vegitableItemDescription[indexPath.row]
-           vc?.counta = updateNum
+        vc?.counta = DetailsViewController.updateNum
            navigationController?.pushViewController(vc!, animated: true)
         
            tableView.deselectRow(at: indexPath, animated: true)
-//        vc?.vegitableItemName = vegitableItems[indexPath.row]
-//        vc?.vegitableItemImage = UIImage(named: vegitableItems[indexPath.row])!
-//        vc?.bravegesItemName = bravages[indexPath.row]
-//        vc?.vegitableItemDesc = vegitableItemDescription[indexPath.row]
+
     }
+    
+    
+    
+    func tableView(_ tableView: UITableView, editingStyleForRowAt indexPath: IndexPath) -> UITableViewCell.EditingStyle {
+        return .delete
+    }
+    
+    func tableView(_ tableView: UITableView,commit editingStyle: UITableViewCell.EditingStyle,forRowAt indexPath: IndexPath){
+        if editingStyle == .delete
+        {
+            tableView.beginUpdates()
+            vegetableArray.remove(at: indexPath.row)
+            tableView.deleteRows(at: [indexPath], with: .fade)
+            tableView.endUpdates()
+        }
+    }
+
     
     func addToCart(){
         counter += 1
-        updateNum = counter
-        print("I'm adding \(updateNum) items to the cart")
+        DetailsViewController.updateNum = counter
+        print("I'm adding \(DetailsViewController.updateNum) items to the cart")
     }
     
     
     func removeFromCart() {
         counter = counter - 2
-        updateNum = counter
-        print("I'm removing \(updateNum) items to the cart")
+        DetailsViewController.updateNum = counter
+        print("I'm removing \(DetailsViewController.updateNum) items to the cart")
     }
 
 //        NotificationCenter.default.post(name: NSNotification.Name("com.magneto.cart.number"), object: nil, userInfo: cartInfo)
