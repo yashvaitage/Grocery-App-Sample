@@ -35,6 +35,7 @@ class DetailTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
     @IBAction func addProductBtnPressed(_ sender: Any) {
         delegate?.addToCart()
     }

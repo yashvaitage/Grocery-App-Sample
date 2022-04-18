@@ -40,9 +40,9 @@ class ProductViewController: UIViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if (segue.identifier == "cartItemSegue") {
             
-        let cartViewController = segue.destination  as! CartViewController
+            let cartViewController = segue.destination  as! CartViewController
             cartViewController.productItemName = (sender as! String)
-            cartViewController.hidesBottomBarWhenPushed = true;
+            cartViewController.hidesBottomBarWhenPushed = true
         }
     }
 }
